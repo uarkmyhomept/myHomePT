@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
+  "styles": [
+    "styles.css",
+    "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -25,6 +29,8 @@
     "@ionic-native/status-bar": "5.0.0-beta.21",
     "@ionic/angular": "4.0.0-beta.15",
     "@ionic/pro": "2.0.3",
+    "@ng-bootstrap/ng-bootstrap": "^4.0.0",
+    "bootstrap": "^4.1.3",
     "core-js": "^2.5.3",
     "rxjs": "6.2.2",
     "zone.js": "^0.8.26"
